@@ -1,4 +1,4 @@
-const {ccclass, property} = cc._decorator;
+const { ccclass, property } = cc._decorator;
 
 /**
  * 拖动
@@ -10,8 +10,8 @@ export default class DragToAnywhere extends cc.Component {
     @property(cc.Label)
     label: cc.Label = null;
 
-    start () {
-        
+    start() {
+
     }
 
     onEnable() {
@@ -34,5 +34,9 @@ export default class DragToAnywhere extends cc.Component {
 
     _onTouchEnd(touchEvent) {
         // 放下
+        cc.log(this.label.string, 'position', this.node.position)
+
+        cc.log(this.label.string, 'this.node.convertToWorldSpaceAR(cc.Vec2.ZERO)',
+            this.node.convertToWorldSpaceAR(cc.Vec2.ZERO));
     }
 }
