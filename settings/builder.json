@@ -1,10 +1,12 @@
 {
   "title": "CCCTry",
   "packageName": "org.cocos2d.demo",
-  "startScene": "95b612db-ce17-48fb-883f-831c17870f29",
+  "startScene": "56b641d9-edee-4638-ac33-74a2512a4418",
   "excludeScenes": [
     "a98450b0-8514-404d-97f8-749dcecba101",
-    "4b9c905f-7fe6-4683-a87a-ab2de5528555"
+    "4b9c905f-7fe6-4683-a87a-ab2de5528555",
+    "95b612db-ce17-48fb-883f-831c17870f29",
+    "fb6e5d12-b8ef-448d-92e6-9a498dd53ae1"
   ],
   "orientation": {
     "landscapeLeft": true,
@@ -12,7 +14,7 @@
     "portrait": false,
     "upsideDown": false
   },
-  "webOrientation": "auto",
+  "webOrientation": "landscape",
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
   "mainCompressionType": "default",
